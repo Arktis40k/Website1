@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video with Subtitles</title>
+</head>
+<body>
+    <video controls width="600">
+        <source src="video-file.mp4" type="video/mp4">
+        
+        <!-- Subtitles for the video -->
+        <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+        <track src="subtitles_es.vtt" kind="subtitles" srclang="es" label="Spanish">
+        
+        Your browser does not support the video element.
+    </video>
+
+    <!-- Transcript of the Video (optional) -->
+    <div id="transcript">
+        <p>This is the transcript of the video. You can copy and paste it from here.</p>
+    </div>
+</body>
+</html>

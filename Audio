@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and Video Controls</title>
+</head>
+<body>
+    <!-- Audio Element -->
+    <audio id="audioPlayer" controls autoplay>
+        <source src="audio-file.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video Element -->
+    <video id="videoPlayer" width="320" height="240" controls autoplay>
+        <source src="video-file.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+    <br>
+
+    <!-- Buttons to Control Audio/Video -->
+    <button onclick="pauseMedia()">Pause</button>
+    <button onclick="muteMedia()">Mute</button>
+    <button onclick="stopMedia()">Stop</button>
+
+    <script>
+        // Get audio and video elements
+        const audioPlayer = document.getElementById('audioPlayer');
+        const videoPlayer = document.getElementById('videoPlayer');
+
+        // Function to pause media
+        function pauseMedia() {
+            audioPlayer.pause();
+            videoPlayer.pause();
+        }
+
+        // Function to mute media
+        function muteMedia() {
+            audioPlayer.muted = true;
+            videoPlayer.muted = true;
+        }
+
+        // Function to stop (exit) media by resetting the current time to 0
+        function stopMedia() {
+            audioPlayer.pause();
+            videoPlayer.pause();
+            audioPlayer.currentTime = 0;
+            videoPlayer.currentTime = 0;
+        }
+    </script>
+</body>
+</html>

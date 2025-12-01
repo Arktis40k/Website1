@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Size Example</title>
+    <style>
+        .large-text {
+            font-size: 32px; /* Enlarge text */
+        }
+        .small-text {
+            font-size: 12px; /* Smaller text */
+        }
+    </style>
+</head>
+<body>
+    <p class="large-text">This text is enlarged.</p>
+    <p class="small-text">This text is smaller.</p>
+</body>
+</html>
