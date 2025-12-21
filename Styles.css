@@ -3,14 +3,12 @@
 /* Body styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
 /* Navigation menu */
 nav {
-    background-color: #ffffff;
     padding: 10px;
 }
 
@@ -26,7 +24,6 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
     font-weight: bold;
 }
@@ -43,13 +40,11 @@ table {
 }
 
 th, td {
-    border: 1px solid #ffffff;
     padding: 10px;
     text-align: left;
 }
 
 th {
-    background-color:#ffffff;
 }
 
 /* Images */
@@ -62,7 +57,6 @@ img {
 
 /* Forms */
 form {
-    background-color: #ffffff;
     padding: 20px;
     max-width: 400px;
     margin: 20px auto;
@@ -76,6 +70,7 @@ input, textarea, button {
     padding: 10px;
     box-sizing: border-box;
 }
+
 
 
 
