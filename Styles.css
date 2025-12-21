@@ -1,1 +1,84 @@
+/* style.css - site-wide styles using white as main color */
+
+/* Body and general font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white; /* main color */
+    color: #333; /* text color for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation menu */
+nav {
+    background-color: #fff; /* white background */
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* subtle shadow */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333; /* dark text on white */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white; /* white table background */
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f9f9f9; /* light gray for header */
+}
+
+/* Images */
+img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* center images */
+    border-radius: 5px;
+}
+
+/* Forms */
+form {
+    background-color: white; /* main color */
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input, textarea, button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
 
