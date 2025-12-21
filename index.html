@@ -78,16 +78,51 @@
         <h2>Shutter Island Movie Trailer</h2> 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/5iaYLCiq5RM?si=vET4Ye80trkfXX0d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <p> Themes: Psychological Thriller | Suspense Mystery | Drama | Mystery | Thriller
-            Two US marshals are sent to a mental institution on an inhospitable island in order to investigate the disappearance of a patient.
-        </p>    
-        
-        <h3>Shutter Island Poster</h3>
+        <p>Two US marshals are sent to a mental institution on an inhospitable island in order to investigate the disappearance of a patient.<p>
+
+         <h3>Shutter Island Poster</h3>
         <img src="SIWebsite.jpg" alt="Leonardo DiCaprio Shutter Island Poster">
-        <p>Director:Martin Scorsese
-            Writers: Laeta Kalogridis & Dennis Lehane
-            Stars: Leonardo DiCaprio & Emiliy Mortimer & Mark Ruffalo
-        </p>
-    <h3>Other Useful Websites</h3>
+        <p>Director:Martin Scorsese</p>
+        </p>Writers: Laeta Kalogridis & Dennis Lehane<p>
+        <p>Stars: Leonardo DiCaprio & Emiliy Mortimer & Mark Ruffalo</p>
+       
+               <h2>Contact Us</h2>
+
+<form id="contactForm">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" required></textarea><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<p id="output"></p>
+
+<script>
+    // Process form data
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent page refresh
+
+        // Get values from form
+        let name = document.getElementById("name").value;
+        let email = document.getElementById("email").value;
+        let message = document.getElementById("message").value;
+
+        // Display processed data
+        document.getElementById("output").innerHTML =
+            "<strong>Form Submitted!</strong><br>" +
+            "Name: " + name + "<br>" +
+            "Email: " + email + "<br>" +
+            "Message: " + message;
+         });
+</script>
+
+     <h3>Other Useful Websites</h3>
          <ul class="list">
             <li><a href="https://www.imdb.com/title/tt1130884/">IMDB Shutter Island</a>.</li>
             <li><a href="https://en.wikipedia.org/wiki/Shutter_Island_(film)">Wikipedia Shutter Island</a>.</li>
@@ -109,8 +144,7 @@
 </html>
 
 
-
-
+       
 
 
 
