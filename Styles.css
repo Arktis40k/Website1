@@ -43,13 +43,13 @@ table {
 }
 
 th, td {
-    border: 1px solid #333;
+    border: 1px solid #ffffff;
     padding: 10px;
     text-align: left;
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color:#ffffff;
 }
 
 /* Images */
@@ -62,7 +62,7 @@ img {
 
 /* Forms */
 form {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 20px;
     max-width: 400px;
     margin: 20px auto;
@@ -76,5 +76,6 @@ input, textarea, button {
     padding: 10px;
     box-sizing: border-box;
 }
+
 
 
